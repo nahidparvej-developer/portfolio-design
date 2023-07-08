@@ -81,7 +81,7 @@ main{
     text-align: center;
     border: 2px solid orangered;
     background-color: orangered;
-    margin: 20px;
+    margin-top: 150px;
 }
 .about-title{
     margin-top: 40px;
@@ -109,14 +109,11 @@ main{
  margin-bottom: 0;
 }
 
-.about-description-1{
-   
-}
+
 
 
 .section-title{
     text-align: center;
-    margin-top: 150px;
     padding: 0% 100px;
 }
 
@@ -124,4 +121,31 @@ main{
 
 .skill-container{
     display: flex;
+    justify-content: center;
+    
+}
+.skill{
+    border: 1px solid black;
+    margin: 20px;
+    text-align: inline;
+    padding: 30px 50px 30px;
+    background-color: gray;
+    margin-top: 60px;
+    color: aliceblue;
+
+}
+#images{
+    width: 25%;
+    margin-top: 20px;
+}
+
+.border-around{
+   margin-top: 150px;
+    border: 1px solid orange; 
+    background-color: aquamarine;
+}
+
+.resume-head{
+    text-align: center;
+    margin-top: 150px;
 }
