@@ -225,4 +225,16 @@ hr{
 
 footer{
     display: flex;
+    justify-content: center;
+    background-color: #056470;
+    margin-top: 50px;
+
+}
+
+.footer-head{
+  padding: 0px 20px ;     
+  margin-right:50px;
+  margin-top: 50px;
+  color: floralwhite;
+   
 }
