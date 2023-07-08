@@ -1,12 +1,21 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #b4b4b4;
+}
 nav{
+    background-color: rgb(110, 197, 231);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px;
-    padding: 30px 30px 0px 50px;
+    padding: 0px 107px 0px 150px;
+   position: fixed;
+   width: 80%;
+   
 }
 .header{
-    background-color: rgb(22, 36, 36);
+ background-color:#3c3c3c;
 }
 .nav-title{
 color: floralwhite;
@@ -33,23 +42,32 @@ nav li a{
     color: floralwhite;
  
 }
+nav li a:hover{
+    color: bisque;
+}
 
 .btn-1{
      background: orange;
      border-radius: 5px;
-     color: floralwhite;
+     color: black;
      padding: 10px 20px;
      cursor: pointer;
      margin-right: 10px;
 }
 
+.btn-1:hover{
+    background-color: aliceblue;
+    transition-duration: .03s;
+}
 
 
 .banner{
     display: flex;
-    padding: 30px 30px 0px 150px;
+    padding: 120px 30px 0px 150px;
     align-items: center;
     justify-content: space-between;
+    margin-top: -8px;
+  
 }
 .banner-text{
    max-width: 500px; 
@@ -62,16 +80,33 @@ nav li a{
 
 .banner-1{
     color: aliceblue;
-    margin-bottom: 0;
+    
 }
 
 .banner-2{
     font-weight: 700;
     color: aliceblue;
-    margin-top: 5px;
-    margin-bottom: 20px;
+
+}
+#myself{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.btn-2{
+    background: orange;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.btn-2:hover{
+   background-color: aliceblue;
+   transition-duration: .03s;
+}
 main{
     max-width: 1100px;
      margin: auto;
@@ -79,17 +114,17 @@ main{
 
 .about-heading{
     text-align: center;
-    border: 2px solid orangered;
-    background-color: orangered;
+    border: 2px solid rgb(92, 83, 83);
+    background-color: rgb(247, 211, 198);
     margin-top: 150px;
 }
 .about-title{
     margin-top: 40px;
-    color: white;
+    color: rgb(255, 0, 0);
 }
 .about-description{
  margin:0 200px 20px;
- color: floralwhite;
+ color: rgb(7, 7, 7);
 }
 
 .about-address{
@@ -100,7 +135,7 @@ main{
 .about-info{
     margin-right: 40px;
     text-align: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin-bottom: 40px;
 }
 
@@ -115,6 +150,8 @@ main{
 .section-title{
     text-align: center;
     padding: 0% 100px;
+    color: floralwhite;
+    margin-top: 100px;
 }
 
 
@@ -125,7 +162,7 @@ main{
     gap: 20px;
 }
 .skill{
-    border: 1px solid black;
+    border: 1px solid floralwhite;
 
     text-align: inline;
     padding: 30px 50px 30px;
