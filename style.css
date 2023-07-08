@@ -3,6 +3,7 @@
 }
 body{
     background-color: #3b6886;
+    
 }
 nav{
     background-color: rgb(110, 197, 231);
@@ -16,6 +17,18 @@ nav{
 }
 .header{
  background-color:#056470;
+ background-image: url('img/header_bg.png');
+ background-repeat: no-repeat;
+ margin-bottom: 0;
+ background-position: bottom right;
+
+
+}
+.dev{
+   width:4%;
+  padding-bottom: 40px;
+ 
+   
 }
 .nav-title{
 color: floralwhite;
@@ -63,7 +76,7 @@ nav li a:hover{
 
 .banner{
     display: flex;
-    padding: 120px 30px 0px 150px;
+    padding: 150px 30px 0px 150px;
     align-items: center;
     justify-content: space-between;
     margin-top: -8px;
@@ -116,7 +129,7 @@ main{
     text-align: center;
     border: 2px solid rgb(92, 83, 83);
     background-color: rgb(247, 211, 198);
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .about-title{
     margin-top: 40px;
@@ -181,7 +194,7 @@ main{
 
 .resume-head{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     color:orange;
     text-decoration: underline;
 }
@@ -227,15 +240,21 @@ footer{
     display: flex;
     justify-content: center;
     background-color: #056470;
-    margin-top: 50px;
+    margin-top: 100px;
  
 
 }
 
 .footer-head{
-  padding: 5px 60px ;     
-  margin-right:50px;
+  padding: 50px 60px ;     
+  /* margin-right:50px; */
  
   color: floralwhite;
    
+}
+
+.footer-ending{
+   margin-top: 2px;
+   background-color: black;
+   color: floralwhite;
 }
