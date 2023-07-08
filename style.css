@@ -2,7 +2,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
-    background-color: #b4b4b4;
+    background-color: #3b6886;
 }
 nav{
     background-color: rgb(110, 197, 231);
@@ -15,7 +15,7 @@ nav{
    
 }
 .header{
- background-color:#3c3c3c;
+ background-color:#056470;
 }
 .nav-title{
 color: floralwhite;
@@ -150,8 +150,9 @@ main{
 .section-title{
     text-align: center;
     padding: 0% 100px;
-    color: floralwhite;
+    color:floralwhite;
     margin-top: 100px;
+    font-size: 18px;
 }
 
 
@@ -166,7 +167,7 @@ main{
 
     text-align: inline;
     padding: 30px 50px 30px;
-    background-color: gray;
+    background-color: rgb(185, 138, 121);
     margin-top: 60px;
     color: aliceblue;
 
@@ -176,15 +177,13 @@ main{
     margin-top: 20px;
 }
 
-/* .border-around{
-   margin-top: 150px;
-    border: 1px solid orange; 
-    background-color: aquamarine;
-} */
+
 
 .resume-head{
     text-align: center;
     margin-top: 150px;
+    color:orange;
+    text-decoration: underline;
 }
 
 
@@ -198,6 +197,7 @@ main{
     margin: auto;
     margin-right:20px;
     margin-top: 50px;
+    color: floralwhite;
 }
 
 .resume-h4{
@@ -213,4 +213,7 @@ main{
     cursor: pointer;
   
     margin-top: 30px
+}
+hr{
+    color: aliceblue;
 }
