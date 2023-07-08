@@ -217,3 +217,12 @@ main{
 hr{
     color: aliceblue;
 }
+
+.btn-dowload{
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+}
