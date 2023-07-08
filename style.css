@@ -100,4 +100,28 @@ main{
 .about-info{
     margin-right: 40px;
     text-align: center;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+
+
+.about-title-1{
+ margin-bottom: 0;
+}
+
+.about-description-1{
+   
+}
+
+
+.section-title{
+    text-align: center;
+    margin-top: 150px;
+    padding: 0% 100px;
+}
+
+
+
+.skill-container{
+    display: flex;
 }
