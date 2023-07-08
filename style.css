@@ -195,8 +195,8 @@ main{
 .resume-head{
     text-align: center;
     margin-top: 100px;
-    color:orange;
-    text-decoration: underline;
+    color:rgb(0, 255, 64);
+  
 }
 
 
@@ -227,6 +227,13 @@ main{
   
     margin-top: 30px
 }
+.resume-btn:hover{
+    background-color: aliceblue;
+    transition-duration: .03s;
+    color: black;
+ }
+
+
 hr{
     color: aliceblue;
 }
