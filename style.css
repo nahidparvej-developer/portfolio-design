@@ -122,11 +122,11 @@ main{
 .skill-container{
     display: flex;
     justify-content: center;
-    
+    gap: 20px;
 }
 .skill{
     border: 1px solid black;
-    margin: 20px;
+
     text-align: inline;
     padding: 30px 50px 30px;
     background-color: gray;
@@ -139,13 +139,41 @@ main{
     margin-top: 20px;
 }
 
-.border-around{
+/* .border-around{
    margin-top: 150px;
     border: 1px solid orange; 
     background-color: aquamarine;
-}
+} */
 
 .resume-head{
     text-align: center;
     margin-top: 150px;
+}
+
+
+.section-resume{
+ display: flex;
+
+   
+}
+
+.resume{
+    margin: auto;
+    margin-right:20px;
+    margin-top: 50px;
+}
+
+.resume-h4{
+    margin-bottom:-3%;
+}
+
+
+.resume-btn{
+    background: orange;
+    border-radius: 5px;
+    color: floralwhite;
+    padding: 10px 20px;
+    cursor: pointer;
+  
+    margin-top: 30px
 }
